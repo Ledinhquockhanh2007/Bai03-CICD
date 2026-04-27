@@ -8,6 +8,6 @@ public class MathUtilsTest {
     @Test
     public void testAdd() {
         MathUtils math = new MathUtils();
-        assertEquals(6, math.add(2, 3), "2 + 3 phải bằng 5");
+        assertEquals(5, math.add(2, 3), "2 + 3 phải bằng 5");
     }
 }
